@@ -6,7 +6,6 @@ const CATEGORIAS = [
     "nombre": "Bocadillo Frío",
     "folder": "BocadilloFrio",
     "tema": "bocadillos",
-    "icon": "🥪",
     "cover": "bocadillo.jpg",
     "count": 11
   },
@@ -15,7 +14,6 @@ const CATEGORIAS = [
     "nombre": "Hamburguesas",
     "folder": "Hamburguesa",
     "tema": "hamburguesa",
-    "icon": "🍔",
     "cover": "hamburguesas.jpg",
     "count": 7
   },
@@ -24,7 +22,6 @@ const CATEGORIAS = [
     "nombre": "Bocadillo Caliente",
     "folder": "BocadilloCaliente",
     "tema": "bocadillos",
-    "icon": "🥖",
     "cover": "bocadillo.jpg",
     "count": 25
   },
@@ -33,7 +30,6 @@ const CATEGORIAS = [
     "nombre": "Tapas",
     "folder": "Tapas",
     "tema": "tapas",
-    "icon": "🍢",
     "cover": "Aceitunas.jpg",
     "count": 34
   },
@@ -42,7 +38,6 @@ const CATEGORIAS = [
     "nombre": "Platos Combinados",
     "folder": "PlatosCombinados",
     "tema": "combinados",
-    "icon": "🍽️",
     "cover": "PlatosCombinados.jpg",
     "count": 28
   },
@@ -51,8 +46,7 @@ const CATEGORIAS = [
     "nombre": "Comida China",
     "folder": "ComidaChina",
     "tema": "china",
-    "icon": "🥡",
-    "cover": "ComiaChina7.jpg",
+    "cover": "ComidaChinaHero.jpg",
     "count": 51
   },
   {
@@ -60,7 +54,6 @@ const CATEGORIAS = [
     "nombre": "Bebidas",
     "folder": "Bebidas",
     "tema": "bebidas",
-    "icon": "🍷",
     "cover": "Bebidas.jpg",
     "count": 23
   },
@@ -69,7 +62,6 @@ const CATEGORIAS = [
     "nombre": "Café",
     "folder": "Cafe",
     "tema": "cafe",
-    "icon": "☕",
     "cover": "Cafe.jpg",
     "count": 13
   },
@@ -78,7 +70,6 @@ const CATEGORIAS = [
     "nombre": "Refrescos",
     "folder": "Refrescos",
     "tema": "refrescos",
-    "icon": "🥤",
     "cover": "Refrescos.jpg",
     "count": 19
   },
@@ -87,7 +78,6 @@ const CATEGORIAS = [
     "nombre": "Cervezas",
     "folder": "Cervezas",
     "tema": "cervezas",
-    "icon": "🍺",
     "cover": "Cerbezas.jpg",
     "count": 12
   },
@@ -96,7 +86,6 @@ const CATEGORIAS = [
     "nombre": "Arroz con Salsa",
     "folder": "ArrozConSalsa",
     "tema": "china",
-    "icon": "🍚",
     "cover": "GambasConSalsaPicanteYArrozBlanco.jpg",
     "count": 9
   }
@@ -108,7 +97,6 @@ const MENU_DATA = {
     "nombre": "Bocadillo Frío",
     "folder": "BocadilloFrio",
     "tema": "bocadillos",
-    "icon": "🥪",
     "covers": [
       "bocadillo.jpg"
     ],
@@ -274,7 +262,6 @@ const MENU_DATA = {
     "nombre": "Hamburguesas",
     "folder": "Hamburguesa",
     "tema": "hamburguesa",
-    "icon": "🍔",
     "covers": [
       "hamburguesas.jpg"
     ],
@@ -356,7 +343,6 @@ const MENU_DATA = {
     "nombre": "Bocadillo Caliente",
     "folder": "BocadilloCaliente",
     "tema": "bocadillos",
-    "icon": "🥖",
     "covers": [
       "bocadillo.jpg",
       "bocadillo2.jpg"
@@ -707,7 +693,6 @@ const MENU_DATA = {
     "nombre": "Tapas",
     "folder": "Tapas",
     "tema": "tapas",
-    "icon": "🍢",
     "covers": [
       "Aceitunas.jpg",
       "AlitasDePollo.jpg",
@@ -1100,7 +1085,6 @@ const MENU_DATA = {
     "nombre": "Platos Combinados",
     "folder": "PlatosCombinados",
     "tema": "combinados",
-    "icon": "🍽️",
     "covers": [
       "PlatosCombinados.jpg"
     ],
@@ -1392,8 +1376,8 @@ const MENU_DATA = {
     "nombre": "Comida China",
     "folder": "ComidaChina",
     "tema": "china",
-    "icon": "🥡",
     "covers": [
+      "ComidaChinaHero.jpg",
       "ComiaChina7.jpg",
       "ComidaChina.jpg",
       "ComidaChina11.jpg",
@@ -1418,7 +1402,7 @@ const MENU_DATA = {
             "price": 6.35
           }
         ],
-        "img": "ComiaChina7.jpg"
+        "img": "ComidaChinaHero.jpg"
       },
       {
         "name": "Arroz frito con gambas",
@@ -1428,7 +1412,7 @@ const MENU_DATA = {
             "price": 7.65
           }
         ],
-        "img": "ComidaChina.jpg"
+        "img": "ComiaChina7.jpg"
       },
       {
         "name": "Arroz frito con pollo",
@@ -1438,7 +1422,7 @@ const MENU_DATA = {
             "price": 6.65
           }
         ],
-        "img": "ComidaChina11.jpg"
+        "img": "ComidaChina.jpg"
       },
       {
         "name": "Arroz frito con curry",
@@ -1448,7 +1432,7 @@ const MENU_DATA = {
             "price": 6.95
           }
         ],
-        "img": "ComidaChina12.jpg"
+        "img": "ComidaChina11.jpg"
       },
       {
         "name": "Arroz mixto",
@@ -1458,7 +1442,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina13.jpg"
+        "img": "ComidaChina12.jpg"
       },
       {
         "name": "Fideos fritos con pollo",
@@ -1468,7 +1452,7 @@ const MENU_DATA = {
             "price": 6.95
           }
         ],
-        "img": "ComidaChina14.jpg"
+        "img": "ComidaChina13.jpg"
       },
       {
         "name": "Fideos fritos con gambas",
@@ -1478,7 +1462,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina2.jpg"
+        "img": "ComidaChina14.jpg"
       },
       {
         "name": "Fideos fritos con ternera",
@@ -1488,7 +1472,7 @@ const MENU_DATA = {
             "price": 7.65
           }
         ],
-        "img": "ComidaChina3.jpg"
+        "img": "ComidaChina2.jpg"
       },
       {
         "name": "Fideos mixtos",
@@ -1498,7 +1482,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina4.jpg"
+        "img": "ComidaChina3.jpg"
       },
       {
         "name": "Tallarines fritos con pollo",
@@ -1508,7 +1492,7 @@ const MENU_DATA = {
             "price": 6.95
           }
         ],
-        "img": "ComidaChina5.jpg"
+        "img": "ComidaChina4.jpg"
       },
       {
         "name": "Tallarines fritos con gambas",
@@ -1518,7 +1502,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina6.jpg"
+        "img": "ComidaChina5.jpg"
       },
       {
         "name": "Tallarines fritos con ternera",
@@ -1528,7 +1512,7 @@ const MENU_DATA = {
             "price": 7.65
           }
         ],
-        "img": "ComidaChina8.jpg"
+        "img": "ComidaChina6.jpg"
       },
       {
         "name": "Tallarines mixtos",
@@ -1538,7 +1522,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina9.jpg"
+        "img": "ComidaChina8.jpg"
       },
       {
         "name": "Empanadilla",
@@ -1548,7 +1532,7 @@ const MENU_DATA = {
             "price": 6.65
           }
         ],
-        "img": "ComidaChiona10.jpg"
+        "img": "ComidaChina9.jpg"
       },
       {
         "name": "Empanadillas de gambas al vapor",
@@ -1558,7 +1542,7 @@ const MENU_DATA = {
             "price": 5.25
           }
         ],
-        "img": "ComiaChina7.jpg"
+        "img": "ComidaChiona10.jpg"
       },
       {
         "name": "Shao mai",
@@ -1568,7 +1552,7 @@ const MENU_DATA = {
             "price": 5.25
           }
         ],
-        "img": "ComidaChina.jpg"
+        "img": "ComidaChinaHero.jpg"
       },
       {
         "name": "Rollito de primavera",
@@ -1578,7 +1562,7 @@ const MENU_DATA = {
             "price": 2.2
           }
         ],
-        "img": "ComidaChina11.jpg"
+        "img": "ComiaChina7.jpg"
       },
       {
         "name": "Mini rollitos de primavera",
@@ -1588,7 +1572,7 @@ const MENU_DATA = {
             "price": 4.5
           }
         ],
-        "img": "ComidaChina12.jpg"
+        "img": "ComidaChina.jpg"
       },
       {
         "name": "Wan tón frito",
@@ -1598,7 +1582,7 @@ const MENU_DATA = {
             "price": 7.25
           }
         ],
-        "img": "ComidaChina13.jpg"
+        "img": "ComidaChina11.jpg"
       },
       {
         "name": "Wan tón a la plancha",
@@ -1608,7 +1592,7 @@ const MENU_DATA = {
             "price": 7.55
           }
         ],
-        "img": "ComidaChina14.jpg"
+        "img": "ComidaChina12.jpg"
       },
       {
         "name": "Ensalada china",
@@ -1618,7 +1602,7 @@ const MENU_DATA = {
             "price": 6.5
           }
         ],
-        "img": "ComidaChina2.jpg"
+        "img": "ComidaChina13.jpg"
       },
       {
         "name": "Arroz blanco",
@@ -1628,7 +1612,7 @@ const MENU_DATA = {
             "price": 2
           }
         ],
-        "img": "ComidaChina3.jpg"
+        "img": "ComidaChina14.jpg"
       },
       {
         "name": "Pollo con almendras",
@@ -1638,7 +1622,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina4.jpg"
+        "img": "ComidaChina2.jpg"
       },
       {
         "name": "Pollo rebozado con salsa limón",
@@ -1648,7 +1632,7 @@ const MENU_DATA = {
             "price": 8.75
           }
         ],
-        "img": "ComidaChina5.jpg"
+        "img": "ComidaChina3.jpg"
       },
       {
         "name": "Pollo con salsa picante",
@@ -1658,7 +1642,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina6.jpg"
+        "img": "ComidaChina4.jpg"
       },
       {
         "name": "Pollo al curry",
@@ -1668,7 +1652,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina8.jpg"
+        "img": "ComidaChina5.jpg"
       },
       {
         "name": "Pollo con champiñones",
@@ -1678,7 +1662,7 @@ const MENU_DATA = {
             "price": 8.75
           }
         ],
-        "img": "ComidaChina9.jpg"
+        "img": "ComidaChina6.jpg"
       },
       {
         "name": "Pollo con cebolla",
@@ -1688,7 +1672,7 @@ const MENU_DATA = {
             "price": 8.75
           }
         ],
-        "img": "ComidaChiona10.jpg"
+        "img": "ComidaChina8.jpg"
       },
       {
         "name": "Pollo con salsa de ostras",
@@ -1698,7 +1682,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComiaChina7.jpg"
+        "img": "ComidaChina9.jpg"
       },
       {
         "name": "Ternera con salsa picante",
@@ -1708,7 +1692,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina.jpg"
+        "img": "ComidaChiona10.jpg"
       },
       {
         "name": "Ternera con cebolla",
@@ -1718,7 +1702,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina11.jpg"
+        "img": "ComidaChinaHero.jpg"
       },
       {
         "name": "Ternera con champiñones",
@@ -1728,7 +1712,7 @@ const MENU_DATA = {
             "price": 9.5
           }
         ],
-        "img": "ComidaChina12.jpg"
+        "img": "ComiaChina7.jpg"
       },
       {
         "name": "Ternera con pimiento verde",
@@ -1738,7 +1722,7 @@ const MENU_DATA = {
             "price": 9.5
           }
         ],
-        "img": "ComidaChina13.jpg"
+        "img": "ComidaChina.jpg"
       },
       {
         "name": "Ternera con curry",
@@ -1748,7 +1732,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina14.jpg"
+        "img": "ComidaChina11.jpg"
       },
       {
         "name": "Ternera con salsa de ostras",
@@ -1758,7 +1742,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina2.jpg"
+        "img": "ComidaChina12.jpg"
       },
       {
         "name": "Gambas con pimiento verde",
@@ -1768,7 +1752,7 @@ const MENU_DATA = {
             "price": 10.65
           }
         ],
-        "img": "ComidaChina3.jpg"
+        "img": "ComidaChina13.jpg"
       },
       {
         "name": "Gambas con salsa de ostras",
@@ -1778,7 +1762,7 @@ const MENU_DATA = {
             "price": 10.65
           }
         ],
-        "img": "ComidaChina4.jpg"
+        "img": "ComidaChina14.jpg"
       },
       {
         "name": "Gambas con salsa picante",
@@ -1788,7 +1772,7 @@ const MENU_DATA = {
             "price": 10.65
           }
         ],
-        "img": "ComidaChina5.jpg"
+        "img": "ComidaChina2.jpg"
       },
       {
         "name": "Gambas con champiñones",
@@ -1798,7 +1782,7 @@ const MENU_DATA = {
             "price": 10.95
           }
         ],
-        "img": "ComidaChina6.jpg"
+        "img": "ComidaChina3.jpg"
       },
       {
         "name": "Gambas al curry",
@@ -1808,7 +1792,7 @@ const MENU_DATA = {
             "price": 10.65
           }
         ],
-        "img": "ComidaChina8.jpg"
+        "img": "ComidaChina4.jpg"
       },
       {
         "name": "Langostino a la sal y pimienta",
@@ -1818,7 +1802,7 @@ const MENU_DATA = {
             "price": 11.15
           }
         ],
-        "img": "ComidaChina9.jpg"
+        "img": "ComidaChina5.jpg"
       },
       {
         "name": "Sepia con salsa de ostras",
@@ -1828,7 +1812,7 @@ const MENU_DATA = {
             "price": 11.65
           }
         ],
-        "img": "ComidaChiona10.jpg"
+        "img": "ComidaChina6.jpg"
       },
       {
         "name": "Sepia con salsa picante",
@@ -1838,7 +1822,7 @@ const MENU_DATA = {
             "price": 11.65
           }
         ],
-        "img": "ComiaChina7.jpg"
+        "img": "ComidaChina8.jpg"
       },
       {
         "name": "Sepia con pimiento verde",
@@ -1848,7 +1832,7 @@ const MENU_DATA = {
             "price": 11.65
           }
         ],
-        "img": "ComidaChina.jpg"
+        "img": "ComidaChina9.jpg"
       },
       {
         "name": "Sepia con curry",
@@ -1858,7 +1842,7 @@ const MENU_DATA = {
             "price": 11.65
           }
         ],
-        "img": "ComidaChina11.jpg"
+        "img": "ComidaChiona10.jpg"
       },
       {
         "name": "Costilla a la sal y pimienta",
@@ -1868,7 +1852,7 @@ const MENU_DATA = {
             "price": 9.95
           }
         ],
-        "img": "ComidaChina12.jpg"
+        "img": "ComidaChinaHero.jpg"
       },
       {
         "name": "Costilla agridulce",
@@ -1878,7 +1862,7 @@ const MENU_DATA = {
             "price": 9.95
           }
         ],
-        "img": "ComidaChina13.jpg"
+        "img": "ComiaChina7.jpg"
       },
       {
         "name": "Ancas de rana",
@@ -1888,7 +1872,7 @@ const MENU_DATA = {
             "price": 12.5
           }
         ],
-        "img": "ComidaChina14.jpg"
+        "img": "ComidaChina.jpg"
       },
       {
         "name": "Pato Pekin",
@@ -1898,7 +1882,7 @@ const MENU_DATA = {
             "price": 13.5
           }
         ],
-        "img": "ComidaChina2.jpg"
+        "img": "ComidaChina11.jpg"
       },
       {
         "name": "Pollo gon bao",
@@ -1908,7 +1892,7 @@ const MENU_DATA = {
             "price": 9.5
           }
         ],
-        "img": "ComidaChina3.jpg"
+        "img": "ComidaChina12.jpg"
       },
       {
         "name": "Pan chino",
@@ -1918,7 +1902,7 @@ const MENU_DATA = {
             "price": 2
           }
         ],
-        "img": "ComidaChina4.jpg"
+        "img": "ComidaChina13.jpg"
       }
     ]
   },
@@ -1927,7 +1911,6 @@ const MENU_DATA = {
     "nombre": "Bebidas",
     "folder": "Bebidas",
     "tema": "bebidas",
-    "icon": "🍷",
     "covers": [
       "Bebidas.jpg",
       "Bebidas2.jpg"
@@ -2170,7 +2153,6 @@ const MENU_DATA = {
     "nombre": "Café",
     "folder": "Cafe",
     "tema": "cafe",
-    "icon": "☕",
     "covers": [
       "Cafe.jpg"
     ],
@@ -2312,7 +2294,6 @@ const MENU_DATA = {
     "nombre": "Refrescos",
     "folder": "Refrescos",
     "tema": "refrescos",
-    "icon": "🥤",
     "covers": [
       "Refrescos.jpg",
       "Refrescos2.jpg"
@@ -2515,7 +2496,6 @@ const MENU_DATA = {
     "nombre": "Cervezas",
     "folder": "Cervezas",
     "tema": "cervezas",
-    "icon": "🍺",
     "covers": [
       "Cerbezas.jpg",
       "Cerbezas2.jpg"
@@ -2648,7 +2628,6 @@ const MENU_DATA = {
     "nombre": "Arroz con Salsa",
     "folder": "ArrozConSalsa",
     "tema": "china",
-    "icon": "🍚",
     "covers": [
       "GambasConSalsaPicanteYArrozBlanco.jpg",
       "PolloAlLimonConArrozBlanco.jpg",

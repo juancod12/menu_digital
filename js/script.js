@@ -67,7 +67,6 @@
   const $homeGrid = document.getElementById('home-grid');
   const $btnBack = document.getElementById('btn-back');
   const $catHeroImg = document.getElementById('cat-hero-img');
-  const $catIcon = document.getElementById('cat-icon');
   const $catTitle = document.getElementById('cat-title');
   const $catCount = document.getElementById('cat-count');
   const $catList = document.getElementById('cat-list');
@@ -100,7 +99,6 @@
         ${imgSrc ? `<img class="cat-card__img" src="${imgSrc}" alt="${cat.nombre}" loading="lazy">` : ''}
         <div class="cat-card__shade"></div>
         <div class="cat-card__body">
-          <span class="cat-card__icon">${cat.icon}</span>
           <span class="cat-card__name">${cat.nombre}</span>
           <span class="cat-card__count">${cat.count} opciones</span>
         </div>`;
@@ -119,7 +117,6 @@
     const heroImg = cat.covers && cat.covers[0] ? IMG_BASE + cat.folder + '/' + cat.covers[0] : '';
     $catHeroImg.src = heroImg;
     $catHeroImg.alt = cat.nombre;
-    $catIcon.textContent = cat.icon;
     $catTitle.textContent = cat.nombre;
     $catCount.textContent = cat.items.length + ' opciones';
     $catSearch.value = '';
