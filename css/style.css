@@ -77,9 +77,8 @@ input{ font-family:inherit; }
 }
 @keyframes splashIn{ from{ opacity:0; transform:translateY(14px) scale(.96);} to{ opacity:1; transform:none; } }
 .splash__logo{
-  width:128px; height:128px; object-fit:cover; border-radius:28px;
-  box-shadow:0 14px 40px rgba(0,0,0,.5);
-  border:1px solid rgba(255,255,255,.08);
+  width:auto; height:190px; max-width:78vw; object-fit:contain;
+  filter:drop-shadow(0 10px 26px rgba(0,0,0,.55));
 }
 .splash__loader{ display:flex; gap:8px; }
 .splash__loader span{
@@ -109,8 +108,7 @@ input{ font-family:inherit; }
   padding:calc(20px + var(--safe-top)) 20px 10px;
 }
 .home__logo{
-  width:52px; height:52px; border-radius:14px; object-fit:cover;
-  border:1px solid var(--card-border);
+  width:auto; height:64px; object-fit:contain;
 }
 .home__title{ font-size:22px; font-weight:700; letter-spacing:.2px; }
 .home__subtitle{ margin:2px 0 0; color:var(--text-dim); font-size:13px; }
@@ -394,7 +392,7 @@ input{ font-family:inherit; }
 
 /* ===================== RESPONSIVE ===================== */
 @media (min-width: 420px){
-  .splash__logo{ width:144px; height:144px; }
+  .splash__logo{ height:220px; }
 }
 @media (min-width: 600px){
   body{ background:#070708; }
