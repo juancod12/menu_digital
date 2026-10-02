@@ -80,6 +80,22 @@
     <span class="fab-cart__chevron">▲</span>
   </button>
 
+  <!-- ============ FICHA DE PRODUCTO (vista ampliada) ============ -->
+  <div id="product-sheet" class="sheet" hidden>
+    <div id="product-backdrop" class="sheet__backdrop"></div>
+    <div class="sheet__panel product-panel">
+      <button id="btn-close-product" class="product-panel__close" aria-label="Cerrar">✕</button>
+      <div class="product-panel__media">
+        <img id="product-img" class="product-panel__img" src="" alt="">
+        <div class="product-panel__media-shade"></div>
+      </div>
+      <div class="product-panel__body">
+        <h3 id="product-name" class="product-panel__name"></h3>
+        <div id="product-buttons" class="product-panel__buttons"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- ============ HOJA DE CUENTA / PEDIDO ============ -->
   <div id="cart-sheet" class="sheet" hidden>
     <div id="cart-backdrop" class="sheet__backdrop"></div>

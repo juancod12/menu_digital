@@ -10,6 +10,26 @@
 
   const fmt = (n) => n.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
 
+  // -------------------- bloqueo de scroll del fondo (cuando hay una hoja abierta) --------------------
+  let lockCount = 0;
+  let savedScrollY = 0;
+  function lockBodyScroll() {
+    if (lockCount === 0) {
+      savedScrollY = window.scrollY;
+      document.body.classList.add('no-scroll');
+      document.body.style.top = -savedScrollY + 'px';
+    }
+    lockCount++;
+  }
+  function unlockBodyScroll() {
+    lockCount = Math.max(0, lockCount - 1);
+    if (lockCount === 0) {
+      document.body.classList.remove('no-scroll');
+      document.body.style.top = '';
+      window.scrollTo(0, savedScrollY);
+    }
+  }
+
   // -------------------- estado del carrito --------------------
   /** cada línea: { id, catId, name, variantLabel, price, img, qty } */
   let cart = [];
@@ -85,6 +105,13 @@
   const $btnClearCart = document.getElementById('btn-clear-cart');
   const $toast = document.getElementById('toast');
 
+  const $productSheet = document.getElementById('product-sheet');
+  const $productBackdrop = document.getElementById('product-backdrop');
+  const $btnCloseProduct = document.getElementById('btn-close-product');
+  const $productImg = document.getElementById('product-img');
+  const $productName = document.getElementById('product-name');
+  const $productButtons = document.getElementById('product-buttons');
+
   let currentCatId = null;
 
   // -------------------- render: home --------------------
@@ -128,6 +155,56 @@
     window.scrollTo(0, 0);
   }
 
+  // genera el HTML de los botones de precio/variantes (se usa en la lista y en la ficha de producto)
+  function variantButtonsHtml(item, modalSize) {
+    const btnClass = 'btn-add' + (modalSize ? ' btn-add--modal' : '');
+    if (item.variants.length === 1) {
+      const v = item.variants[0];
+      if (modalSize) {
+        return `
+          <button class="${btnClass}" data-action="add" data-vi="0">
+            <span class="btn-add__plus">+</span> Añadir${v.label ? ' · ' + v.label : ''} ${fmt(v.price)}
+          </button>`;
+      }
+      return `
+        <div class="item-card__single">
+          <span class="item-card__price">${v.label ? v.label + ' · ' : ''}${fmt(v.price)}</span>
+          <button class="btn-add btn-add--full" data-action="add" data-vi="0">
+            <span class="btn-add__plus">+</span> Añadir
+          </button>
+        </div>`;
+    }
+    let html = modalSize ? '' : '<div class="item-card__variants">';
+    item.variants.forEach((v, vi) => {
+      html += `
+        <button class="${btnClass}" data-action="add" data-vi="${vi}">
+          <span class="btn-add__plus">+</span> ${v.label} ${fmt(v.price)}
+        </button>`;
+    });
+    if (!modalSize) html += '</div>';
+    return html;
+  }
+
+  // conecta los botones "add" de un contenedor con la lógica de añadir al carrito
+  function wireAddButtons(container, item) {
+    container.querySelectorAll('[data-action="add"]').forEach((btn) => {
+      btn.addEventListener('click', (ev) => {
+        ev.stopPropagation();
+        const vi = parseInt(btn.getAttribute('data-vi'), 10);
+        const variant = item.variants[vi];
+        addToCart({
+          catId: currentCatId,
+          name: item.name,
+          variantLabel: variant.label,
+          price: variant.price,
+          img: item.img,
+        });
+        flyToCart(ev.currentTarget);
+        showToast('Añadido a tu cuenta');
+      });
+    });
+  }
+
   function renderItems(items) {
     $catList.innerHTML = '';
     if (!items.length) {
@@ -141,49 +218,35 @@
       card.style.animationDelay = Math.min(i * 0.04, 0.5) + 's';
       const imgSrc = item.img ? IMG_BASE + cat.folder + '/' + item.img : '';
 
-      let bodyHtml = `<div class="item-card__body"><p class="item-card__name">${item.name}</p>`;
-      if (item.variants.length === 1) {
-        const v = item.variants[0];
-        bodyHtml += `
-          <div class="item-card__single">
-            <span class="item-card__price">${v.label ? v.label + ' · ' : ''}${fmt(v.price)}</span>
-            <button class="btn-add btn-add--full" data-action="add" data-vi="0">
-              <span class="btn-add__plus">+</span> Añadir
-            </button>
-          </div>`;
-      } else {
-        bodyHtml += '<div class="item-card__variants">';
-        item.variants.forEach((v, vi) => {
-          bodyHtml += `
-            <button class="btn-add" data-action="add" data-vi="${vi}">
-              <span class="btn-add__plus">+</span> ${v.label} ${fmt(v.price)}
-            </button>`;
-        });
-        bodyHtml += '</div>';
-      }
-      bodyHtml += '</div>';
-
+      const bodyHtml = `<div class="item-card__body"><p class="item-card__name">${item.name}</p>${variantButtonsHtml(item, false)}</div>`;
       card.innerHTML = (imgSrc ? `<img class="item-card__img" src="${imgSrc}" alt="${item.name}" loading="lazy">` : '') + bodyHtml;
 
-      card.querySelectorAll('[data-action="add"]').forEach((btn) => {
-        btn.addEventListener('click', (ev) => {
-          const vi = parseInt(btn.getAttribute('data-vi'), 10);
-          const variant = item.variants[vi];
-          addToCart({
-            catId: currentCatId,
-            name: item.name,
-            variantLabel: variant.label,
-            price: variant.price,
-            img: item.img,
-          });
-          flyToCart(ev.currentTarget);
-          showToast('Añadido a tu cuenta');
-        });
-      });
+      wireAddButtons(card, item);
+      card.addEventListener('click', () => openProductSheet(item, imgSrc));
 
       $catList.appendChild(card);
     });
   }
+
+  // -------------------- ficha de producto (vista ampliada) --------------------
+  function openProductSheet(item, imgSrc) {
+    $productImg.src = imgSrc;
+    $productImg.alt = item.name;
+    $productName.textContent = item.name;
+    $productButtons.innerHTML = variantButtonsHtml(item, true);
+    wireAddButtons($productButtons, item);
+
+    $productSheet.hidden = false;
+    lockBodyScroll();
+    requestAnimationFrame(() => $productSheet.classList.add('is-open'));
+  }
+  function closeProductSheet() {
+    $productSheet.classList.remove('is-open');
+    unlockBodyScroll();
+    setTimeout(() => { $productSheet.hidden = true; }, 320);
+  }
+  $btnCloseProduct.addEventListener('click', closeProductSheet);
+  $productBackdrop.addEventListener('click', closeProductSheet);
 
   function closeCategory() {
     $viewCategory.hidden = true;
@@ -245,10 +308,12 @@
   function sheetIsOpen() { return $sheet.classList.contains('is-open'); }
   function openSheet() {
     $sheet.hidden = false;
+    lockBodyScroll();
     requestAnimationFrame(() => $sheet.classList.add('is-open'));
   }
   function closeSheet() {
     $sheet.classList.remove('is-open');
+    unlockBodyScroll();
     setTimeout(() => { $sheet.hidden = true; renderCart(); }, 320);
   }
 

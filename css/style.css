@@ -43,6 +43,9 @@ body{
   min-height:100vh;
   transition: background-color .5s ease;
 }
+body.no-scroll{
+  position:fixed; left:0; right:0; overflow:hidden;
+}
 h1,h2,h3{ font-family:'Poppins', 'Outfit', system-ui, sans-serif; margin:0; }
 button{ font-family:inherit; }
 img{ max-width:100%; display:block; }
@@ -196,7 +199,10 @@ input{ font-family:inherit; }
   border-radius:var(--radius); padding:10px;
   opacity:0; transform:translateY(10px);
   animation: cardIn .4s ease forwards;
+  cursor:pointer;
+  transition: transform .12s ease, border-color .2s ease;
 }
+.item-card:active{ transform:scale(.98); border-color:var(--accent); }
 .item-card__img{
   width:66px; height:66px; border-radius:var(--radius-sm); object-fit:cover;
   flex-shrink:0; background:#000;
@@ -285,6 +291,45 @@ input{ font-family:inherit; }
 .sheet__close:active{ transform:scale(.9); }
 
 .sheet__items{ overflow-y:auto; padding:6px 16px; flex:1; -webkit-overflow-scrolling:touch; }
+
+/* ===================== FICHA DE PRODUCTO ===================== */
+.product-panel{
+  overflow:hidden; max-height:88vh;
+}
+.product-panel__close{
+  position:absolute; top:14px; right:14px; z-index:2;
+  width:36px; height:36px; border-radius:50%;
+  background:rgba(12,12,13,.55); backdrop-filter:blur(6px);
+  border:1px solid rgba(255,255,255,.14);
+  color:#fff; font-size:14px; display:flex; align-items:center; justify-content:center;
+}
+.product-panel__close:active{ transform:scale(.9); }
+.product-panel__media{
+  position:relative; width:100%; height:min(52vw, 300px); flex-shrink:0;
+  background:var(--card);
+}
+.product-panel__img{
+  position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
+}
+.product-panel__media-shade{
+  position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(10,10,10,0) 55%, var(--bg-soft) 100%);
+}
+.product-panel__body{
+  padding:16px 20px calc(22px + var(--safe-bottom));
+  overflow-y:auto;
+}
+.product-panel__name{ font-size:21px; font-weight:700; line-height:1.25; }
+.product-panel__buttons{
+  display:flex; flex-direction:column; gap:10px; margin-top:16px;
+}
+.btn-add--modal{
+  width:100%; justify-content:center;
+  padding:14px 16px; font-size:15px; min-height:50px;
+  background:var(--accent); color:#1a1408; border-color:var(--accent);
+}
+.btn-add--modal:active{ transform:scale(.97); filter:brightness(.92); }
+.btn-add--modal .btn-add__plus{ font-size:17px; }
 
 .cart-line{
   display:flex; align-items:center; gap:10px;
