@@ -2154,7 +2154,19 @@ const MENU_DATA = {
     "folder": "Cafe",
     "tema": "cafe",
     "covers": [
-      "Cafe.jpg"
+      "Cafe.jpg",
+      "Cortado.jpg",
+      "bombon.jpg",
+      "cafeConHielo.jpg",
+      "cafeConLeche.jpg",
+      "cafeSolo.jpg",
+      "carajilloDeBaileys.jpg",
+      "carajilloDeConac.jpg",
+      "carajilloDeWhisky.jpg",
+      "infusion.jpg",
+      "trifasicoDeBaileys.jpg",
+      "trifasicoDeConac.jpg",
+      "trifasicoDeWhisky.jpg"
     ],
     "items": [
       {
@@ -2165,7 +2177,7 @@ const MENU_DATA = {
             "price": 1.5
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "cafeSolo.jpg"
       },
       {
         "name": "Cortado",
@@ -2175,7 +2187,7 @@ const MENU_DATA = {
             "price": 1.6
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "Cortado.jpg"
       },
       {
         "name": "Café con leche",
@@ -2185,7 +2197,7 @@ const MENU_DATA = {
             "price": 1.7
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "cafeConLeche.jpg"
       },
       {
         "name": "Infusión",
@@ -2195,7 +2207,7 @@ const MENU_DATA = {
             "price": 1.9
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "infusion.jpg"
       },
       {
         "name": "Café con hielo",
@@ -2205,7 +2217,7 @@ const MENU_DATA = {
             "price": 1.6
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "cafeConHielo.jpg"
       },
       {
         "name": "Bombón",
@@ -2215,7 +2227,7 @@ const MENU_DATA = {
             "price": 2
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "bombon.jpg"
       },
       {
         "name": "Carajillo de coñac",
@@ -2225,7 +2237,7 @@ const MENU_DATA = {
             "price": 2
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "carajilloDeConac.jpg"
       },
       {
         "name": "Carajillo de whisky",
@@ -2235,7 +2247,7 @@ const MENU_DATA = {
             "price": 2.2
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "carajilloDeWhisky.jpg"
       },
       {
         "name": "Carajillo de Baileys",
@@ -2245,7 +2257,7 @@ const MENU_DATA = {
             "price": 2.3
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "carajilloDeBaileys.jpg"
       },
       {
         "name": "Trifásico de coñac",
@@ -2255,7 +2267,7 @@ const MENU_DATA = {
             "price": 2
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "trifasicoDeConac.jpg"
       },
       {
         "name": "Trifásico de whisky",
@@ -2265,7 +2277,7 @@ const MENU_DATA = {
             "price": 2.2
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "trifasicoDeWhisky.jpg"
       },
       {
         "name": "Trifásico de Baileys",
@@ -2275,7 +2287,7 @@ const MENU_DATA = {
             "price": 2.3
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "trifasicoDeBaileys.jpg"
       },
       {
         "name": "Café irlandés",
@@ -2498,7 +2510,19 @@ const MENU_DATA = {
     "tema": "cervezas",
     "covers": [
       "Cerbezas.jpg",
-      "Cerbezas2.jpg"
+      "Cerbezas2.jpg",
+      "CervezSinGluten.jpg",
+      "CervezaSinAlcohol.jpg",
+      "Clara.jpg",
+      "CopaDeCerveza.jpg",
+      "EstrellaMediana.jpg",
+      "EstrellaQuinta.jpg",
+      "FreeDam.jpg",
+      "Galicia.jpg",
+      "Heineken.jpg",
+      "SinAlcoholTostada.jpg",
+      "Turia.jpg",
+      "VollDamm.jpg"
     ],
     "items": [
       {
@@ -2509,7 +2533,7 @@ const MENU_DATA = {
             "price": 2.3
           }
         ],
-        "img": "Cerbezas.jpg"
+        "img": "EstrellaMediana.jpg"
       },
       {
         "name": "Estrella Quinta",
@@ -2519,7 +2543,7 @@ const MENU_DATA = {
             "price": 1.9
           }
         ],
-        "img": "Cerbezas2.jpg"
+        "img": "EstrellaQuinta.jpg"
       },
       {
         "name": "Galicias",
@@ -2529,7 +2553,7 @@ const MENU_DATA = {
             "price": 2.3
           }
         ],
-        "img": "Cerbezas.jpg"
+        "img": "Galicia.jpg"
       },
       {
         "name": "Cerveza sin alcohol",
@@ -2539,7 +2563,7 @@ const MENU_DATA = {
             "price": 2.4
           }
         ],
-        "img": "Cerbezas2.jpg"
+        "img": "CervezaSinAlcohol.jpg"
       },
       {
         "name": "Sin Alcohol Tostada",
@@ -2549,7 +2573,7 @@ const MENU_DATA = {
             "price": 2.4
           }
         ],
-        "img": "Cerbezas.jpg"
+        "img": "SinAlcoholTostada.jpg"
       },
       {
         "name": "Turia",
@@ -2559,7 +2583,7 @@ const MENU_DATA = {
             "price": 2.5
           }
         ],
-        "img": "Cerbezas2.jpg"
+        "img": "Turia.jpg"
       },
       {
         "name": "Cerveza Sin Gluten",
@@ -2569,7 +2593,7 @@ const MENU_DATA = {
             "price": 2.5
           }
         ],
-        "img": "Cerbezas.jpg"
+        "img": "CervezSinGluten.jpg"
       },
       {
         "name": "Voll Damm",
@@ -2579,7 +2603,7 @@ const MENU_DATA = {
             "price": 2.5
           }
         ],
-        "img": "Cerbezas2.jpg"
+        "img": "VollDamm.jpg"
       },
       {
         "name": "Clara",
@@ -2589,7 +2613,7 @@ const MENU_DATA = {
             "price": 2.4
           }
         ],
-        "img": "Cerbezas.jpg"
+        "img": "Clara.jpg"
       },
       {
         "name": "Copa cerveza",
@@ -2599,7 +2623,7 @@ const MENU_DATA = {
             "price": 2.4
           }
         ],
-        "img": "Cerbezas2.jpg"
+        "img": "CopaDeCerveza.jpg"
       },
       {
         "name": "Heineken",
@@ -2609,7 +2633,7 @@ const MENU_DATA = {
             "price": 2.4
           }
         ],
-        "img": "Cerbezas.jpg"
+        "img": "Heineken.jpg"
       },
       {
         "name": "Free Damm",
@@ -2619,7 +2643,7 @@ const MENU_DATA = {
             "price": 2.5
           }
         ],
-        "img": "Cerbezas2.jpg"
+        "img": "FreeDam.jpg"
       }
     ]
   },
