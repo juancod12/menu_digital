@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0b0c">
+<title>Menú Digital</title>
+<meta name="description" content="Carta digital del restaurante — elige tu categoría y arma tu cuenta.">
+<link rel="icon" href="assets/logo.png">
+<link rel="apple-touch-icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ SPLASH / INICIO ============ -->
+  <div id="splash" class="splash">
+    <div class="splash__bg" style="background-image:url('assets/inicio.png')"></div>
+    <div class="splash__overlay"></div>
+    <div class="splash__content">
+      <img src="assets/logo.png" alt="Logo del restaurante" class="splash__logo">
+      <div class="splash__loader" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <p class="splash__text">Preparando tu carta…</p>
+    </div>
+  </div>
+
+  <!-- ============ APP ============ -->
+  <div id="app" class="app" hidden>
+
+    <!-- ---- HOME: categorías ---- -->
+    <section id="view-home" class="view view-home" data-view="home">
+      <header class="home__header">
+        <img src="assets/logo.png" alt="Logo" class="home__logo">
+        <div class="home__title-wrap">
+          <h1 class="home__title">Nuestra Carta</h1>
+          <p class="home__subtitle">Toca una categoría para ver los platos</p>
+        </div>
+      </header>
+
+      <div id="home-grid" class="home__grid"></div>
+
+      <footer class="home__footer">
+        <p>Precios con IVA incluido · La cuenta es orientativa</p>
+      </footer>
+    </section>
+
+    <!-- ---- CATEGORÍA: lista de productos ---- -->
+    <section id="view-category" class="view view-category" data-view="category" hidden>
+      <div class="cat__hero">
+        <img id="cat-hero-img" class="cat__hero-img" src="" alt="">
+        <div class="cat__hero-overlay"></div>
+        <button id="btn-back" class="cat__back" aria-label="Volver a categorías">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="cat__hero-text">
+          <span id="cat-icon" class="cat__icon"></span>
+          <h2 id="cat-title" class="cat__title"></h2>
+          <span id="cat-count" class="cat__count"></span>
+        </div>
+      </div>
+
+      <div class="cat__search-wrap">
+        <input id="cat-search" class="cat__search" type="search" placeholder="Buscar en esta categoría…" autocomplete="off">
+      </div>
+
+      <div id="cat-list" class="cat__list"></div>
+    </section>
+  </div>
+
+  <!-- ============ BOTÓN FLOTANTE CUENTA ============ -->
+  <button id="btn-cart" class="fab-cart" hidden>
+    <span class="fab-cart__icon">🧾</span>
+    <span class="fab-cart__info">
+      <span id="cart-count" class="fab-cart__count">0 productos</span>
+      <span id="cart-total" class="fab-cart__total">0,00 €</span>
+    </span>
+    <span class="fab-cart__chevron">▲</span>
+  </button>
+
+  <!-- ============ HOJA DE CUENTA / PEDIDO ============ -->
+  <div id="cart-sheet" class="sheet" hidden>
+    <div id="cart-backdrop" class="sheet__backdrop"></div>
+    <div class="sheet__panel">
+      <div class="sheet__handle"></div>
+      <div class="sheet__header">
+        <h3>Mi Cuenta</h3>
+        <button id="btn-close-cart" class="sheet__close" aria-label="Cerrar">✕</button>
+      </div>
+
+      <div id="cart-items" class="sheet__items"></div>
+
+      <div id="cart-empty" class="sheet__empty" hidden>
+        <p>🍽️</p>
+        <p>Todavía no has añadido nada.</p>
+        <p class="sheet__empty-sub">Explora el menú y toca "Añadir" en lo que te apetezca.</p>
+      </div>
+
+      <div class="sheet__footer">
+        <div class="sheet__total-row">
+          <span>Total</span>
+          <span id="sheet-total">0,00 €</span>
+        </div>
+        <p class="sheet__note">Cuenta orientativa para el camarero · no es un pedido online</p>
+        <button id="btn-clear-cart" class="sheet__clear">Vaciar cuenta</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- toasts -->
+  <div id="toast" class="toast"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

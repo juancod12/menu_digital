@@ -1,0 +1,9 @@
+{
+  "name": "menu_digital",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Carta digital estilo KFC: categorías, cuenta/pedido informativo en el navegador. Sin backend.",
+  "scripts": {
+    "dev": "node -e \"const h=require('http'),fs=require('fs'),p=require('path');const m={'.html':'text/html','.css':'text/css','.js':'application/javascript','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml'};h.createServer((q,r)=>{let u=decodeURIComponent(q.url.split('?')[0]);if(u==='/')u='/index.html';const f=p.join(__dirname,u);fs.readFile(f,(e,d)=>{if(e){r.writeHead(404);r.end('404');return}r.writeHead(200,{'Content-Type':m[p.extname(f)]||'application/octet-stream'});r.end(d)})}).listen(5173,()=>console.log('http://localhost:5173'))\""
+  }
+}
