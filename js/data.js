@@ -88,6 +88,14 @@ const CATEGORIAS = [
     "tema": "china",
     "cover": "GambasConSalsaPicanteYArrozBlanco.jpg",
     "count": 9
+  },
+  {
+    "id": "licores",
+    "nombre": "Licores",
+    "folder": "Licores",
+    "tema": "licores",
+    "cover": "LicoresHero.jpg",
+    "count": 36
   }
 ];
 
@@ -98,7 +106,18 @@ const MENU_DATA = {
     "folder": "BocadilloFrio",
     "tema": "bocadillos",
     "covers": [
-      "bocadillo.jpg"
+      "bocadillo.jpg",
+      "Anchoas.jpg",
+      "Atun.jpg",
+      "AtunConAnchoas.jpg",
+      "ButifarraBlanco.jpg",
+      "Chorizo.jpg",
+      "Fuet.jpg",
+      "JamonDulce.jpg",
+      "JamonDulceConQueso.jpg",
+      "JamonSerrano.jpg",
+      "Queso.jpg",
+      "VegetalAtun.jpg"
     ],
     "items": [
       {
@@ -113,7 +132,7 @@ const MENU_DATA = {
             "price": 5.5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Atun.jpg"
       },
       {
         "name": "Atún con anchoas",
@@ -127,7 +146,7 @@ const MENU_DATA = {
             "price": 7
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "AtunConAnchoas.jpg"
       },
       {
         "name": "Vegetal atún",
@@ -141,7 +160,7 @@ const MENU_DATA = {
             "price": 6
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "VegetalAtun.jpg"
       },
       {
         "name": "Jamón serrano",
@@ -155,7 +174,7 @@ const MENU_DATA = {
             "price": 5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "JamonSerrano.jpg"
       },
       {
         "name": "Fuet",
@@ -169,7 +188,7 @@ const MENU_DATA = {
             "price": 5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Fuet.jpg"
       },
       {
         "name": "Chorizo",
@@ -183,7 +202,7 @@ const MENU_DATA = {
             "price": 5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Chorizo.jpg"
       },
       {
         "name": "Queso",
@@ -197,7 +216,7 @@ const MENU_DATA = {
             "price": 6
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Queso.jpg"
       },
       {
         "name": "Jamón dulce",
@@ -211,7 +230,7 @@ const MENU_DATA = {
             "price": 4.3
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "JamonDulce.jpg"
       },
       {
         "name": "Jamón dulce con queso",
@@ -225,7 +244,7 @@ const MENU_DATA = {
             "price": 4.5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "JamonDulceConQueso.jpg"
       },
       {
         "name": "Butifarra blanco",
@@ -239,7 +258,7 @@ const MENU_DATA = {
             "price": 5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "ButifarraBlanco.jpg"
       },
       {
         "name": "Anchoas",
@@ -253,7 +272,7 @@ const MENU_DATA = {
             "price": 7.5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Anchoas.jpg"
       }
     ]
   },
@@ -263,7 +282,14 @@ const MENU_DATA = {
     "folder": "Hamburguesa",
     "tema": "hamburguesa",
     "covers": [
-      "hamburguesas.jpg"
+      "hamburguesas.jpg",
+      "Hamburguesa.jpg",
+      "HamburguesaCompleta.jpg",
+      "HamburguesaCompletaYPatatasFritas.jpg",
+      "HamburguesaConQueso.jpg",
+      "HamburguesaConQuesoCebolla.jpg",
+      "HamburguesaDePolloRebozadoConLechugaYTomate.jpg",
+      "HamburguesaDePolloRebozadoConPatatasFritas.jpg"
     ],
     "items": [
       {
@@ -274,7 +300,7 @@ const MENU_DATA = {
             "price": 3.8
           }
         ],
-        "img": "hamburguesas.jpg"
+        "img": "Hamburguesa.jpg"
       },
       {
         "name": "Hamburguesa con queso",
@@ -284,7 +310,7 @@ const MENU_DATA = {
             "price": 4.5
           }
         ],
-        "img": "hamburguesas.jpg"
+        "img": "HamburguesaConQueso.jpg"
       },
       {
         "name": "Hamburguesa completa (Lechuga, tomate, queso, cebolla, beicon, huevo)",
@@ -294,7 +320,7 @@ const MENU_DATA = {
             "price": 6
           }
         ],
-        "img": "hamburguesas.jpg"
+        "img": "HamburguesaCompleta.jpg"
       },
       {
         "name": "Hamburguesa completa y patatas fritas",
@@ -304,7 +330,7 @@ const MENU_DATA = {
             "price": 8
           }
         ],
-        "img": "hamburguesas.jpg"
+        "img": "HamburguesaCompletaYPatatasFritas.jpg"
       },
       {
         "name": "Hamburguesa con queso cebolla",
@@ -314,7 +340,7 @@ const MENU_DATA = {
             "price": 5.2
           }
         ],
-        "img": "hamburguesas.jpg"
+        "img": "HamburguesaConQuesoCebolla.jpg"
       },
       {
         "name": "Hamburguesa de pollo rebozado con lechuga y tomate",
@@ -324,7 +350,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "hamburguesas.jpg"
+        "img": "HamburguesaDePolloRebozadoConLechugaYTomate.jpg"
       },
       {
         "name": "Hamburguesa de pollo rebozado con patatas fritas",
@@ -334,7 +360,7 @@ const MENU_DATA = {
             "price": 9.5
           }
         ],
-        "img": "hamburguesas.jpg"
+        "img": "HamburguesaDePolloRebozadoConPatatasFritas.jpg"
       }
     ]
   },
@@ -345,6 +371,31 @@ const MENU_DATA = {
     "tema": "bocadillos",
     "covers": [
       "bocadillo.jpg",
+      "Beicon.jpg",
+      "BeiconConQueso.jpg",
+      "Bikini.jpg",
+      "BocadilloChistorra.jpg",
+      "Frankfurt.jpg",
+      "Fricandela.jpg",
+      "Lomo.jpg",
+      "LomoBeiconQueso.jpg",
+      "LomoConPimiento.jpg",
+      "LomoConQueso.jpg",
+      "LomoQuesoPimiento.jpg",
+      "Panceta.jpg",
+      "Pinchos.jpg",
+      "Pollo.jpg",
+      "PolloConPimiento.jpg",
+      "PolloConQueso.jpg",
+      "PolloConRebozado.jpg",
+      "PolloConRebozadoConQueso.jpg",
+      "Salchichas.jpg",
+      "Serranito.jpg",
+      "TortillaConAtun.jpg",
+      "TortillaConQueso.jpg",
+      "TortillaDePatatas.jpg",
+      "TortillaFrancesa.jpg",
+      "VegetalPollo.jpg",
       "bocadillo2.jpg"
     ],
     "items": [
@@ -360,7 +411,7 @@ const MENU_DATA = {
             "price": 5.1
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Beicon.jpg"
       },
       {
         "name": "Beicon con queso",
@@ -374,7 +425,7 @@ const MENU_DATA = {
             "price": 5.6
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "BeiconConQueso.jpg"
       },
       {
         "name": "Lomo",
@@ -388,7 +439,7 @@ const MENU_DATA = {
             "price": 5.1
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Lomo.jpg"
       },
       {
         "name": "Lomo con queso",
@@ -402,7 +453,7 @@ const MENU_DATA = {
             "price": 5.8
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "LomoConQueso.jpg"
       },
       {
         "name": "Lomo con pimiento",
@@ -416,7 +467,7 @@ const MENU_DATA = {
             "price": 6.3
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "LomoConPimiento.jpg"
       },
       {
         "name": "Lomo queso pimiento",
@@ -430,7 +481,7 @@ const MENU_DATA = {
             "price": 7
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "LomoQuesoPimiento.jpg"
       },
       {
         "name": "Lomo beicon queso",
@@ -444,7 +495,7 @@ const MENU_DATA = {
             "price": 7.5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "LomoBeiconQueso.jpg"
       },
       {
         "name": "Pollo",
@@ -458,7 +509,7 @@ const MENU_DATA = {
             "price": 5.1
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "Pollo.jpg"
       },
       {
         "name": "Pollo con queso",
@@ -472,7 +523,7 @@ const MENU_DATA = {
             "price": 5.8
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "PolloConQueso.jpg"
       },
       {
         "name": "Pollo con pimiento",
@@ -486,7 +537,7 @@ const MENU_DATA = {
             "price": 6.3
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "PolloConPimiento.jpg"
       },
       {
         "name": "Pollo con rebozado",
@@ -500,7 +551,7 @@ const MENU_DATA = {
             "price": 7.2
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "PolloConRebozado.jpg"
       },
       {
         "name": "Pollo con rebozado con queso...",
@@ -514,7 +565,7 @@ const MENU_DATA = {
             "price": 7.5
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "PolloConRebozadoConQueso.jpg"
       },
       {
         "name": "Vegetal pollo",
@@ -528,7 +579,7 @@ const MENU_DATA = {
             "price": 6
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "VegetalPollo.jpg"
       },
       {
         "name": "Pinchos",
@@ -542,7 +593,7 @@ const MENU_DATA = {
             "price": 6.3
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "Pinchos.jpg"
       },
       {
         "name": "Salchichas",
@@ -556,7 +607,7 @@ const MENU_DATA = {
             "price": 5.8
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Salchichas.jpg"
       },
       {
         "name": "Serranito",
@@ -570,7 +621,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "Serranito.jpg"
       },
       {
         "name": "Tortilla francesa",
@@ -584,7 +635,7 @@ const MENU_DATA = {
             "price": 5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "TortillaFrancesa.jpg"
       },
       {
         "name": "Tortilla con queso",
@@ -598,7 +649,7 @@ const MENU_DATA = {
             "price": 6
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "TortillaConQueso.jpg"
       },
       {
         "name": "Tortilla con atún",
@@ -612,7 +663,7 @@ const MENU_DATA = {
             "price": 6.5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "TortillaConAtun.jpg"
       },
       {
         "name": "Tortilla de patatas",
@@ -626,7 +677,7 @@ const MENU_DATA = {
             "price": 6
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "TortillaDePatatas.jpg"
       },
       {
         "name": "Frankfurt",
@@ -636,7 +687,7 @@ const MENU_DATA = {
             "price": 3.5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Frankfurt.jpg"
       },
       {
         "name": "Bikini",
@@ -646,7 +697,7 @@ const MENU_DATA = {
             "price": 3.2
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "Bikini.jpg"
       },
       {
         "name": "Fricandela",
@@ -656,7 +707,7 @@ const MENU_DATA = {
             "price": 3.5
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Fricandela.jpg"
       },
       {
         "name": "Bocadillo chistorra",
@@ -670,7 +721,7 @@ const MENU_DATA = {
             "price": 5.8
           }
         ],
-        "img": "bocadillo2.jpg"
+        "img": "BocadilloChistorra.jpg"
       },
       {
         "name": "Panceta",
@@ -684,7 +735,7 @@ const MENU_DATA = {
             "price": 6
           }
         ],
-        "img": "bocadillo.jpg"
+        "img": "Panceta.jpg"
       }
     ]
   },
@@ -1086,7 +1137,35 @@ const MENU_DATA = {
     "folder": "PlatosCombinados",
     "tema": "combinados",
     "covers": [
-      "PlatosCombinados.jpg"
+      "PlatosCombinados.jpg",
+      "2FricandolaConHuevoYPatatas.jpg",
+      "2FricandolaConPatatas.jpg",
+      "BeiconPatatasYHuevo.jpg",
+      "BistecPatatasYEnsalada.jpg",
+      "ButifarraConJudiaYEnsalada.jpg",
+      "CalamaresPatatasYEnsalada.jpg",
+      "ChuletonDeTernera.jpg",
+      "ChurrascoDeTernera.jpg",
+      "CostillaDeCorderoConPatatasYEnsalada.jpg",
+      "CroquetasConTortillaFrancesaYPatatas.jpg",
+      "DoradaPlanchaConVerdura.jpg",
+      "FrankfurtPatatasYHuevo.jpg",
+      "FricandolaConPatatas.jpg",
+      "HamburguesaPatatasYHuevo.jpg",
+      "HuevosConPatata.jpg",
+      "LomoPatatasYHuevo.jpg",
+      "MerluzaPatatasYEnsalada.jpg",
+      "MexicanitoConPatatasYHuevo.jpg",
+      "NuggetsDePolloConPatatas.jpg",
+      "PancetaPatatasHuevo.jpg",
+      "ParrilladaDeMarisco.jpg",
+      "PechugaDePolloPatatasYEnsalada.jpg",
+      "PechugaDePolloRebozadaPatatasYEnsalada.jpg",
+      "PinchoPatatasYHuevo.jpg",
+      "SalchichaPatatasHuevo.jpg",
+      "SalmonPatatasYEnsalada.jpg",
+      "SepiaPatatasYEnsalada.jpg",
+      "SevillanoPatatasYPimientos.jpg"
     ],
     "items": [
       {
@@ -1097,7 +1176,7 @@ const MENU_DATA = {
             "price": 13.55
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "MerluzaPatatasYEnsalada.jpg"
       },
       {
         "name": "Salmón patatas y ensalada",
@@ -1107,7 +1186,7 @@ const MENU_DATA = {
             "price": 13.55
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "SalmonPatatasYEnsalada.jpg"
       },
       {
         "name": "Sepia patatas y ensalada",
@@ -1117,7 +1196,7 @@ const MENU_DATA = {
             "price": 13.55
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "SepiaPatatasYEnsalada.jpg"
       },
       {
         "name": "Calamares patatas y ensalada",
@@ -1127,7 +1206,7 @@ const MENU_DATA = {
             "price": 11.95
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "CalamaresPatatasYEnsalada.jpg"
       },
       {
         "name": "Sevillano patatas y pimientos",
@@ -1137,7 +1216,7 @@ const MENU_DATA = {
             "price": 12.95
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "SevillanoPatatasYPimientos.jpg"
       },
       {
         "name": "Lomo patatas y huevo",
@@ -1147,7 +1226,7 @@ const MENU_DATA = {
             "price": 9.25
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "LomoPatatasYHuevo.jpg"
       },
       {
         "name": "Beicon patatas y huevo",
@@ -1157,7 +1236,7 @@ const MENU_DATA = {
             "price": 9.25
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "BeiconPatatasYHuevo.jpg"
       },
       {
         "name": "Pechuga de pollo patatas y ensalada",
@@ -1167,7 +1246,7 @@ const MENU_DATA = {
             "price": 9.25
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "PechugaDePolloPatatasYEnsalada.jpg"
       },
       {
         "name": "Pincho patatas y huevo",
@@ -1177,7 +1256,7 @@ const MENU_DATA = {
             "price": 9.25
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "PinchoPatatasYHuevo.jpg"
       },
       {
         "name": "Pechuga de pollo rebozada patatas y ensalada",
@@ -1187,7 +1266,7 @@ const MENU_DATA = {
             "price": 11.25
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "PechugaDePolloRebozadaPatatasYEnsalada.jpg"
       },
       {
         "name": "Frankfurt patatas y huevo",
@@ -1197,7 +1276,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "FrankfurtPatatasYHuevo.jpg"
       },
       {
         "name": "Bistec patatas y ensalada",
@@ -1207,7 +1286,7 @@ const MENU_DATA = {
             "price": 12.05
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "BistecPatatasYEnsalada.jpg"
       },
       {
         "name": "Hamburguesa patatas y huevo",
@@ -1217,7 +1296,7 @@ const MENU_DATA = {
             "price": 9.25
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "HamburguesaPatatasYHuevo.jpg"
       },
       {
         "name": "Chuletón de ternera (450g-500g) patatas y pimientos",
@@ -1227,7 +1306,7 @@ const MENU_DATA = {
             "price": 23
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "ChuletonDeTernera.jpg"
       },
       {
         "name": "Salchicha patatas huevo",
@@ -1237,7 +1316,7 @@ const MENU_DATA = {
             "price": 9.25
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "SalchichaPatatasHuevo.jpg"
       },
       {
         "name": "Panceta patatas huevo",
@@ -1247,7 +1326,7 @@ const MENU_DATA = {
             "price": 9.25
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "PancetaPatatasHuevo.jpg"
       },
       {
         "name": "Butifarra con judía y ensalada",
@@ -1257,7 +1336,7 @@ const MENU_DATA = {
             "price": 9.95
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "ButifarraConJudiaYEnsalada.jpg"
       },
       {
         "name": "Huevos con patata",
@@ -1267,7 +1346,7 @@ const MENU_DATA = {
             "price": 6.5
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "HuevosConPatata.jpg"
       },
       {
         "name": "Nuggets de pollo con patatas",
@@ -1277,7 +1356,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "NuggetsDePolloConPatatas.jpg"
       },
       {
         "name": "Dorada plancha con verdura",
@@ -1287,7 +1366,7 @@ const MENU_DATA = {
             "price": 13.55
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "DoradaPlanchaConVerdura.jpg"
       },
       {
         "name": "Croquetas con tortilla francesa y patatas",
@@ -1297,7 +1376,7 @@ const MENU_DATA = {
             "price": 9.25
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "CroquetasConTortillaFrancesaYPatatas.jpg"
       },
       {
         "name": "Fricándola con patatas",
@@ -1307,7 +1386,7 @@ const MENU_DATA = {
             "price": 5.5
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "FricandolaConPatatas.jpg"
       },
       {
         "name": "2 Fricándola con patatas",
@@ -1317,7 +1396,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "2FricandolaConPatatas.jpg"
       },
       {
         "name": "Churrasco de ternera con pimientos de padrón y patata bravas",
@@ -1327,7 +1406,7 @@ const MENU_DATA = {
             "price": 14.55
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "ChurrascoDeTernera.jpg"
       },
       {
         "name": "2 Fricándola con huevo y patatas",
@@ -1337,7 +1416,7 @@ const MENU_DATA = {
             "price": 8.85
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "2FricandolaConHuevoYPatatas.jpg"
       },
       {
         "name": "Mexicanito con patatas y huevo",
@@ -1347,7 +1426,7 @@ const MENU_DATA = {
             "price": 8.85
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "MexicanitoConPatatasYHuevo.jpg"
       },
       {
         "name": "Costilla de cordero con patatas y ensalada",
@@ -1357,7 +1436,7 @@ const MENU_DATA = {
             "price": 19.55
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "CostillaDeCorderoConPatatasYEnsalada.jpg"
       },
       {
         "name": "Parrillada de marisco (3 gambas, sevillano, sepia y champiñones)",
@@ -1367,7 +1446,7 @@ const MENU_DATA = {
             "price": 16.95
           }
         ],
-        "img": "PlatosCombinados.jpg"
+        "img": "ParrilladaDeMarisco.jpg"
       }
     ]
   },
@@ -1378,6 +1457,13 @@ const MENU_DATA = {
     "tema": "china",
     "covers": [
       "ComidaChinaHero.jpg",
+      "AncasDeRana.jpg",
+      "ArrozBlanco.jpg",
+      "ArrozFritoConCurry.jpg",
+      "ArrozFritoConGambas.jpg",
+      "ArrozFritoConPollo.jpg",
+      "ArrozFritoDeLaCasa.jpg",
+      "ArrozMixto.jpg",
       "ComiaChina7.jpg",
       "ComidaChina.jpg",
       "ComidaChina11.jpg",
@@ -1391,7 +1477,51 @@ const MENU_DATA = {
       "ComidaChina6.jpg",
       "ComidaChina8.jpg",
       "ComidaChina9.jpg",
-      "ComidaChiona10.jpg"
+      "ComidaChiona10.jpg",
+      "CostillaALaSalYPimienta.jpg",
+      "CostillaAgridulce.jpg",
+      "Empanadilla.jpg",
+      "EmpanadillasDeGambasAlVapor.jpg",
+      "EnsaladaChina.jpg",
+      "FideosFritosConGambas.jpg",
+      "FideosFritosConPollo.jpg",
+      "FideosFritosConTernera.jpg",
+      "FideosMixtos.jpg",
+      "GambasAlCurry.jpg",
+      "GambasConChampinones.jpg",
+      "GambasConPimientoVerde.jpg",
+      "GambasConSalsaDeOstras.jpg",
+      "GambasConSalsaPicante.jpg",
+      "LangostinoALaSalYPimienta.jpg",
+      "MiniRollitosDePrimavera.jpg",
+      "PanChino.jpg",
+      "PatoPekin.jpg",
+      "PolloAlCurry.jpg",
+      "PolloConAlmendras.jpg",
+      "PolloConCebolla.jpg",
+      "PolloConChampinones.jpg",
+      "PolloConSalsaDeOstras.jpg",
+      "PolloConSalsaPicante.jpg",
+      "PolloGonBao.jpg",
+      "PolloRebozadoConSalsaLimon.jpg",
+      "RollitoDePrimavera.jpg",
+      "SepiaConCurry.jpg",
+      "SepiaConPimientoVerde.jpg",
+      "SepiaConSalsaDeOstras.jpg",
+      "SepiaConSalsaPicante.jpg",
+      "ShaoMai.jpg",
+      "TallarinesFritosConGambas.jpg",
+      "TallarinesFritosConPollo.jpg",
+      "TallarinesFritosConTernera.jpg",
+      "TallarinesMixtos.jpg",
+      "TerneraConCebolla.jpg",
+      "TerneraConChampinones.jpg",
+      "TerneraConCurry.jpg",
+      "TerneraConPimientoVerde.jpg",
+      "TerneraConSalsaDeOstras.jpg",
+      "TerneraConSalsaPicante.jpg",
+      "WanTonALaPlancha.jpg",
+      "WanTonFrito.jpg"
     ],
     "items": [
       {
@@ -1402,7 +1532,7 @@ const MENU_DATA = {
             "price": 6.35
           }
         ],
-        "img": "ComidaChinaHero.jpg"
+        "img": "ArrozFritoDeLaCasa.jpg"
       },
       {
         "name": "Arroz frito con gambas",
@@ -1412,7 +1542,7 @@ const MENU_DATA = {
             "price": 7.65
           }
         ],
-        "img": "ComiaChina7.jpg"
+        "img": "ArrozFritoConGambas.jpg"
       },
       {
         "name": "Arroz frito con pollo",
@@ -1422,7 +1552,7 @@ const MENU_DATA = {
             "price": 6.65
           }
         ],
-        "img": "ComidaChina.jpg"
+        "img": "ArrozFritoConPollo.jpg"
       },
       {
         "name": "Arroz frito con curry",
@@ -1432,7 +1562,7 @@ const MENU_DATA = {
             "price": 6.95
           }
         ],
-        "img": "ComidaChina11.jpg"
+        "img": "ArrozFritoConCurry.jpg"
       },
       {
         "name": "Arroz mixto",
@@ -1442,7 +1572,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina12.jpg"
+        "img": "ArrozMixto.jpg"
       },
       {
         "name": "Fideos fritos con pollo",
@@ -1452,7 +1582,7 @@ const MENU_DATA = {
             "price": 6.95
           }
         ],
-        "img": "ComidaChina13.jpg"
+        "img": "FideosFritosConPollo.jpg"
       },
       {
         "name": "Fideos fritos con gambas",
@@ -1462,7 +1592,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina14.jpg"
+        "img": "FideosFritosConGambas.jpg"
       },
       {
         "name": "Fideos fritos con ternera",
@@ -1472,7 +1602,7 @@ const MENU_DATA = {
             "price": 7.65
           }
         ],
-        "img": "ComidaChina2.jpg"
+        "img": "FideosFritosConTernera.jpg"
       },
       {
         "name": "Fideos mixtos",
@@ -1482,7 +1612,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina3.jpg"
+        "img": "FideosMixtos.jpg"
       },
       {
         "name": "Tallarines fritos con pollo",
@@ -1492,7 +1622,7 @@ const MENU_DATA = {
             "price": 6.95
           }
         ],
-        "img": "ComidaChina4.jpg"
+        "img": "TallarinesFritosConPollo.jpg"
       },
       {
         "name": "Tallarines fritos con gambas",
@@ -1502,7 +1632,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina5.jpg"
+        "img": "TallarinesFritosConGambas.jpg"
       },
       {
         "name": "Tallarines fritos con ternera",
@@ -1512,7 +1642,7 @@ const MENU_DATA = {
             "price": 7.65
           }
         ],
-        "img": "ComidaChina6.jpg"
+        "img": "TallarinesFritosConTernera.jpg"
       },
       {
         "name": "Tallarines mixtos",
@@ -1522,7 +1652,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina8.jpg"
+        "img": "TallarinesMixtos.jpg"
       },
       {
         "name": "Empanadilla",
@@ -1532,7 +1662,7 @@ const MENU_DATA = {
             "price": 6.65
           }
         ],
-        "img": "ComidaChina9.jpg"
+        "img": "Empanadilla.jpg"
       },
       {
         "name": "Empanadillas de gambas al vapor",
@@ -1542,7 +1672,7 @@ const MENU_DATA = {
             "price": 5.25
           }
         ],
-        "img": "ComidaChiona10.jpg"
+        "img": "EmpanadillasDeGambasAlVapor.jpg"
       },
       {
         "name": "Shao mai",
@@ -1552,7 +1682,7 @@ const MENU_DATA = {
             "price": 5.25
           }
         ],
-        "img": "ComidaChinaHero.jpg"
+        "img": "ShaoMai.jpg"
       },
       {
         "name": "Rollito de primavera",
@@ -1562,7 +1692,7 @@ const MENU_DATA = {
             "price": 2.2
           }
         ],
-        "img": "ComiaChina7.jpg"
+        "img": "RollitoDePrimavera.jpg"
       },
       {
         "name": "Mini rollitos de primavera",
@@ -1572,7 +1702,7 @@ const MENU_DATA = {
             "price": 4.5
           }
         ],
-        "img": "ComidaChina.jpg"
+        "img": "MiniRollitosDePrimavera.jpg"
       },
       {
         "name": "Wan tón frito",
@@ -1582,7 +1712,7 @@ const MENU_DATA = {
             "price": 7.25
           }
         ],
-        "img": "ComidaChina11.jpg"
+        "img": "WanTonFrito.jpg"
       },
       {
         "name": "Wan tón a la plancha",
@@ -1592,7 +1722,7 @@ const MENU_DATA = {
             "price": 7.55
           }
         ],
-        "img": "ComidaChina12.jpg"
+        "img": "WanTonALaPlancha.jpg"
       },
       {
         "name": "Ensalada china",
@@ -1602,7 +1732,7 @@ const MENU_DATA = {
             "price": 6.5
           }
         ],
-        "img": "ComidaChina13.jpg"
+        "img": "EnsaladaChina.jpg"
       },
       {
         "name": "Arroz blanco",
@@ -1612,7 +1742,7 @@ const MENU_DATA = {
             "price": 2
           }
         ],
-        "img": "ComidaChina14.jpg"
+        "img": "ArrozBlanco.jpg"
       },
       {
         "name": "Pollo con almendras",
@@ -1622,7 +1752,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina2.jpg"
+        "img": "PolloConAlmendras.jpg"
       },
       {
         "name": "Pollo rebozado con salsa limón",
@@ -1632,7 +1762,7 @@ const MENU_DATA = {
             "price": 8.75
           }
         ],
-        "img": "ComidaChina3.jpg"
+        "img": "PolloRebozadoConSalsaLimon.jpg"
       },
       {
         "name": "Pollo con salsa picante",
@@ -1642,7 +1772,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina4.jpg"
+        "img": "PolloConSalsaPicante.jpg"
       },
       {
         "name": "Pollo al curry",
@@ -1652,7 +1782,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina5.jpg"
+        "img": "PolloAlCurry.jpg"
       },
       {
         "name": "Pollo con champiñones",
@@ -1662,7 +1792,7 @@ const MENU_DATA = {
             "price": 8.75
           }
         ],
-        "img": "ComidaChina6.jpg"
+        "img": "PolloConChampinones.jpg"
       },
       {
         "name": "Pollo con cebolla",
@@ -1672,7 +1802,7 @@ const MENU_DATA = {
             "price": 8.75
           }
         ],
-        "img": "ComidaChina8.jpg"
+        "img": "PolloConCebolla.jpg"
       },
       {
         "name": "Pollo con salsa de ostras",
@@ -1682,7 +1812,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "ComidaChina9.jpg"
+        "img": "PolloConSalsaDeOstras.jpg"
       },
       {
         "name": "Ternera con salsa picante",
@@ -1692,7 +1822,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChiona10.jpg"
+        "img": "TerneraConSalsaPicante.jpg"
       },
       {
         "name": "Ternera con cebolla",
@@ -1702,7 +1832,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChinaHero.jpg"
+        "img": "TerneraConCebolla.jpg"
       },
       {
         "name": "Ternera con champiñones",
@@ -1712,7 +1842,7 @@ const MENU_DATA = {
             "price": 9.5
           }
         ],
-        "img": "ComiaChina7.jpg"
+        "img": "TerneraConChampinones.jpg"
       },
       {
         "name": "Ternera con pimiento verde",
@@ -1722,7 +1852,7 @@ const MENU_DATA = {
             "price": 9.5
           }
         ],
-        "img": "ComidaChina.jpg"
+        "img": "TerneraConPimientoVerde.jpg"
       },
       {
         "name": "Ternera con curry",
@@ -1732,7 +1862,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina11.jpg"
+        "img": "TerneraConCurry.jpg"
       },
       {
         "name": "Ternera con salsa de ostras",
@@ -1742,7 +1872,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "ComidaChina12.jpg"
+        "img": "TerneraConSalsaDeOstras.jpg"
       },
       {
         "name": "Gambas con pimiento verde",
@@ -1752,7 +1882,7 @@ const MENU_DATA = {
             "price": 10.65
           }
         ],
-        "img": "ComidaChina13.jpg"
+        "img": "GambasConPimientoVerde.jpg"
       },
       {
         "name": "Gambas con salsa de ostras",
@@ -1762,7 +1892,7 @@ const MENU_DATA = {
             "price": 10.65
           }
         ],
-        "img": "ComidaChina14.jpg"
+        "img": "GambasConSalsaDeOstras.jpg"
       },
       {
         "name": "Gambas con salsa picante",
@@ -1772,7 +1902,7 @@ const MENU_DATA = {
             "price": 10.65
           }
         ],
-        "img": "ComidaChina2.jpg"
+        "img": "GambasConSalsaPicante.jpg"
       },
       {
         "name": "Gambas con champiñones",
@@ -1782,7 +1912,7 @@ const MENU_DATA = {
             "price": 10.95
           }
         ],
-        "img": "ComidaChina3.jpg"
+        "img": "GambasConChampinones.jpg"
       },
       {
         "name": "Gambas al curry",
@@ -1792,7 +1922,7 @@ const MENU_DATA = {
             "price": 10.65
           }
         ],
-        "img": "ComidaChina4.jpg"
+        "img": "GambasAlCurry.jpg"
       },
       {
         "name": "Langostino a la sal y pimienta",
@@ -1802,7 +1932,7 @@ const MENU_DATA = {
             "price": 11.15
           }
         ],
-        "img": "ComidaChina5.jpg"
+        "img": "LangostinoALaSalYPimienta.jpg"
       },
       {
         "name": "Sepia con salsa de ostras",
@@ -1812,7 +1942,7 @@ const MENU_DATA = {
             "price": 11.65
           }
         ],
-        "img": "ComidaChina6.jpg"
+        "img": "SepiaConSalsaDeOstras.jpg"
       },
       {
         "name": "Sepia con salsa picante",
@@ -1822,7 +1952,7 @@ const MENU_DATA = {
             "price": 11.65
           }
         ],
-        "img": "ComidaChina8.jpg"
+        "img": "SepiaConSalsaPicante.jpg"
       },
       {
         "name": "Sepia con pimiento verde",
@@ -1832,7 +1962,7 @@ const MENU_DATA = {
             "price": 11.65
           }
         ],
-        "img": "ComidaChina9.jpg"
+        "img": "SepiaConPimientoVerde.jpg"
       },
       {
         "name": "Sepia con curry",
@@ -1842,7 +1972,7 @@ const MENU_DATA = {
             "price": 11.65
           }
         ],
-        "img": "ComidaChiona10.jpg"
+        "img": "SepiaConCurry.jpg"
       },
       {
         "name": "Costilla a la sal y pimienta",
@@ -1852,7 +1982,7 @@ const MENU_DATA = {
             "price": 9.95
           }
         ],
-        "img": "ComidaChinaHero.jpg"
+        "img": "CostillaALaSalYPimienta.jpg"
       },
       {
         "name": "Costilla agridulce",
@@ -1862,7 +1992,7 @@ const MENU_DATA = {
             "price": 9.95
           }
         ],
-        "img": "ComiaChina7.jpg"
+        "img": "CostillaAgridulce.jpg"
       },
       {
         "name": "Ancas de rana",
@@ -1872,7 +2002,7 @@ const MENU_DATA = {
             "price": 12.5
           }
         ],
-        "img": "ComidaChina.jpg"
+        "img": "AncasDeRana.jpg"
       },
       {
         "name": "Pato Pekin",
@@ -1882,7 +2012,7 @@ const MENU_DATA = {
             "price": 13.5
           }
         ],
-        "img": "ComidaChina11.jpg"
+        "img": "PatoPekin.jpg"
       },
       {
         "name": "Pollo gon bao",
@@ -1892,7 +2022,7 @@ const MENU_DATA = {
             "price": 9.5
           }
         ],
-        "img": "ComidaChina12.jpg"
+        "img": "PolloGonBao.jpg"
       },
       {
         "name": "Pan chino",
@@ -1902,7 +2032,7 @@ const MENU_DATA = {
             "price": 2
           }
         ],
-        "img": "ComidaChina13.jpg"
+        "img": "PanChino.jpg"
       }
     ]
   },
@@ -1913,7 +2043,30 @@ const MENU_DATA = {
     "tema": "bebidas",
     "covers": [
       "Bebidas.jpg",
-      "Bebidas2.jpg"
+      "Bebidas2.jpg",
+      "Cava.jpg",
+      "CopaDeCava.jpg",
+      "CopaDeVinoDeLaCasa.jpg",
+      "CopaSangriaDeCava.jpg",
+      "CopaSangriaDeVino.jpg",
+      "CopaVinoBlancoBach.jpg",
+      "CopaVinoRioja.jpg",
+      "Cune.jpg",
+      "ElCoto.jpg",
+      "ElCotoPequeno.jpg",
+      "LambruscoRosado.jpg",
+      "MarquesDeCaceres.jpg",
+      "Mojito.jpg",
+      "MojitoDeFresa.jpg",
+      "PerroVerde.jpg",
+      "RamonBilbao.jpg",
+      "RamonBilbaoPequeno.jpg",
+      "SangriaDeCava.jpg",
+      "SangriaDeVino.jpg",
+      "TintoVerano.jpg",
+      "VinoBlancoBach.jpg",
+      "VinoDeLaCasa.jpg",
+      "VinoRosado.jpg"
     ],
     "items": [
       {
@@ -1924,7 +2077,7 @@ const MENU_DATA = {
             "price": 2.3
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "CopaDeVinoDeLaCasa.jpg"
       },
       {
         "name": "Vino de la casa",
@@ -1934,7 +2087,7 @@ const MENU_DATA = {
             "price": 8.5
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "VinoDeLaCasa.jpg"
       },
       {
         "name": "Ramón Bilbao",
@@ -1944,7 +2097,7 @@ const MENU_DATA = {
             "price": 13.95
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "RamonBilbao.jpg"
       },
       {
         "name": "Marqués de Cáceres",
@@ -1954,7 +2107,7 @@ const MENU_DATA = {
             "price": 13.95
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "MarquesDeCaceres.jpg"
       },
       {
         "name": "El coto",
@@ -1964,7 +2117,7 @@ const MENU_DATA = {
             "price": 12.5
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "ElCoto.jpg"
       },
       {
         "name": "Cune",
@@ -1974,7 +2127,7 @@ const MENU_DATA = {
             "price": 12.5
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "Cune.jpg"
       },
       {
         "name": "El coto pequeño",
@@ -1984,7 +2137,7 @@ const MENU_DATA = {
             "price": 8.5
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "ElCotoPequeno.jpg"
       },
       {
         "name": "Ramón Bilbao pequeño",
@@ -1994,7 +2147,7 @@ const MENU_DATA = {
             "price": 8.5
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "RamonBilbaoPequeno.jpg"
       },
       {
         "name": "Copa vino rioja",
@@ -2004,7 +2157,7 @@ const MENU_DATA = {
             "price": 3.7
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "CopaVinoRioja.jpg"
       },
       {
         "name": "Vino blanco Bach",
@@ -2014,7 +2167,7 @@ const MENU_DATA = {
             "price": 9.5
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "VinoBlancoBach.jpg"
       },
       {
         "name": "Copa vino blanco Bach",
@@ -2024,7 +2177,7 @@ const MENU_DATA = {
             "price": 3
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "CopaVinoBlancoBach.jpg"
       },
       {
         "name": "Tinto Verano",
@@ -2034,7 +2187,7 @@ const MENU_DATA = {
             "price": 2.6
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "TintoVerano.jpg"
       },
       {
         "name": "Vino rosado",
@@ -2044,7 +2197,7 @@ const MENU_DATA = {
             "price": 8.5
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "VinoRosado.jpg"
       },
       {
         "name": "Cava",
@@ -2054,7 +2207,7 @@ const MENU_DATA = {
             "price": 9.5
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "Cava.jpg"
       },
       {
         "name": "Copa de cava",
@@ -2064,7 +2217,7 @@ const MENU_DATA = {
             "price": 2.5
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "CopaDeCava.jpg"
       },
       {
         "name": "Perro verde",
@@ -2074,7 +2227,7 @@ const MENU_DATA = {
             "price": 14.5
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "PerroVerde.jpg"
       },
       {
         "name": "Lambrusco Rosado",
@@ -2084,7 +2237,7 @@ const MENU_DATA = {
             "price": 8.95
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "LambruscoRosado.jpg"
       },
       {
         "name": "Sangría de vino",
@@ -2094,7 +2247,7 @@ const MENU_DATA = {
             "price": 12.95
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "SangriaDeVino.jpg"
       },
       {
         "name": "Sangría de cava",
@@ -2104,7 +2257,7 @@ const MENU_DATA = {
             "price": 16.5
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "SangriaDeCava.jpg"
       },
       {
         "name": "Copa sangría de vino",
@@ -2114,7 +2267,7 @@ const MENU_DATA = {
             "price": 6.5
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "CopaSangriaDeVino.jpg"
       },
       {
         "name": "Copa sangría de cava",
@@ -2124,7 +2277,7 @@ const MENU_DATA = {
             "price": 7.95
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "CopaSangriaDeCava.jpg"
       },
       {
         "name": "Mojito",
@@ -2134,7 +2287,7 @@ const MENU_DATA = {
             "price": 7
           }
         ],
-        "img": "Bebidas2.jpg"
+        "img": "Mojito.jpg"
       },
       {
         "name": "Mojito de fresa",
@@ -2144,7 +2297,7 @@ const MENU_DATA = {
             "price": 7.5
           }
         ],
-        "img": "Bebidas.jpg"
+        "img": "MojitoDeFresa.jpg"
       }
     ]
   },
@@ -2155,6 +2308,7 @@ const MENU_DATA = {
     "tema": "cafe",
     "covers": [
       "Cafe.jpg",
+      "CafeIrlandes.jpg",
       "Cortado.jpg",
       "bombon.jpg",
       "cafeConHielo.jpg",
@@ -2297,7 +2451,7 @@ const MENU_DATA = {
             "price": 5.5
           }
         ],
-        "img": "Cafe.jpg"
+        "img": "CafeIrlandes.jpg"
       }
     ]
   },
@@ -2753,6 +2907,233 @@ const MENU_DATA = {
           }
         ],
         "img": "TreneraConSalsaDeOstrasYtallarines.jpg"
+      }
+    ]
+  },
+  "licores": {
+    "id": "licores",
+    "nombre": "Licores",
+    "folder": "Licores",
+    "tema": "licores",
+    "covers": [
+      "LicoresHero.jpg",
+      "BacardiCola.jpg",
+      "BlackLabel.jpg",
+      "Bombay.jpg",
+      "ChupitoCardu.jpg",
+      "ChupitoChiva.jpg",
+      "ChupitoConac.jpg",
+      "ChupitoHierbas.jpg",
+      "ChupitoJackDaniels.jpg",
+      "ChupitoMacallan.jpg",
+      "ChupitoOrujoBlanco.jpg",
+      "ChupitoWhisky.jpg",
+      "CopaAnis.jpg",
+      "CopaBeilys.jpg",
+      "CopaCardu.jpg",
+      "CopaConac.jpg",
+      "CopaHierbas.jpg",
+      "CopaJackDaniels.jpg",
+      "CopaMacallan.jpg",
+      "CopaMagno.jpg",
+      "CopaTorres.jpg",
+      "CopaTorres10.jpg",
+      "CopaVodka.jpg",
+      "CopaWhisky.jpg",
+      "Gintonic.jpg",
+      "JackDanielsCola.jpg",
+      "MartiniBlanco.jpg",
+      "MartiniNegro.jpg",
+      "Tequila.jpg",
+      "TuboBeilys.jpg",
+      "TuboHierbas.jpg",
+      "TuboWhisky.jpg",
+      "Vermut.jpg",
+      "VodkaAbsolut.jpg",
+      "VodkaRedBull.jpg",
+      "WhiskyCola.jpg",
+      "WhiskyRedBull.jpg"
+    ],
+    "items": [
+      {
+        "name": "Chupito de coñac",
+        "variants": [{ "label": null, "price": 1.8 }],
+        "img": "ChupitoConac.jpg"
+      },
+      {
+        "name": "Chupito de hierbas",
+        "variants": [{ "label": null, "price": 1.8 }],
+        "img": "ChupitoHierbas.jpg"
+      },
+      {
+        "name": "Chupito de whisky",
+        "variants": [{ "label": null, "price": 2 }],
+        "img": "ChupitoWhisky.jpg"
+      },
+      {
+        "name": "Copa de coñac",
+        "variants": [{ "label": null, "price": 2.5 }],
+        "img": "CopaConac.jpg"
+      },
+      {
+        "name": "Copa de anís",
+        "variants": [{ "label": null, "price": 2.5 }],
+        "img": "CopaAnis.jpg"
+      },
+      {
+        "name": "Copa de whisky",
+        "variants": [{ "label": null, "price": 3 }],
+        "img": "CopaWhisky.jpg"
+      },
+      {
+        "name": "Copa de Beilys",
+        "variants": [{ "label": null, "price": 3.2 }],
+        "img": "CopaBeilys.jpg"
+      },
+      {
+        "name": "Copa de hierbas",
+        "variants": [{ "label": null, "price": 2.5 }],
+        "img": "CopaHierbas.jpg"
+      },
+      {
+        "name": "Copa de torres",
+        "variants": [{ "label": null, "price": 2.8 }],
+        "img": "CopaTorres.jpg"
+      },
+      {
+        "name": "Copa de torres 10",
+        "variants": [{ "label": null, "price": 3 }],
+        "img": "CopaTorres10.jpg"
+      },
+      {
+        "name": "Tubo de hierbas",
+        "variants": [{ "label": null, "price": 2.5 }],
+        "img": "TuboHierbas.jpg"
+      },
+      {
+        "name": "Tubo de whisky",
+        "variants": [{ "label": null, "price": 4.2 }],
+        "img": "TuboWhisky.jpg"
+      },
+      {
+        "name": "Tubo de Beilys",
+        "variants": [{ "label": null, "price": 4.2 }],
+        "img": "TuboBeilys.jpg"
+      },
+      {
+        "name": "Whisky cola",
+        "variants": [{ "label": null, "price": 6 }],
+        "img": "WhiskyCola.jpg"
+      },
+      {
+        "name": "Whisky RedBull",
+        "variants": [{ "label": null, "price": 6.8 }],
+        "img": "WhiskyRedBull.jpg"
+      },
+      {
+        "name": "Gintonic",
+        "variants": [{ "label": null, "price": 6 }],
+        "img": "Gintonic.jpg"
+      },
+      {
+        "name": "Vodka absolut",
+        "variants": [{ "label": null, "price": 6.5 }],
+        "img": "VodkaAbsolut.jpg"
+      },
+      {
+        "name": "Vodka RedBull",
+        "variants": [{ "label": null, "price": 7 }],
+        "img": "VodkaRedBull.jpg"
+      },
+      {
+        "name": "Bacardi cola",
+        "variants": [{ "label": null, "price": 6 }],
+        "img": "BacardiCola.jpg"
+      },
+      {
+        "name": "Chupito de Macallan",
+        "variants": [{ "label": null, "price": 6 }],
+        "img": "ChupitoMacallan.jpg"
+      },
+      {
+        "name": "Copa de Macallan",
+        "variants": [{ "label": null, "price": 11 }],
+        "img": "CopaMacallan.jpg"
+      },
+      {
+        "name": "Chupito de chiva",
+        "variants": [{ "label": null, "price": 3 }],
+        "img": "ChupitoChiva.jpg"
+      },
+      {
+        "name": "Chupito de Jack Daniels",
+        "variants": [{ "label": null, "price": 3 }],
+        "img": "ChupitoJackDaniels.jpg"
+      },
+      {
+        "name": "Copa de Jack Daniels",
+        "variants": [{ "label": null, "price": 4.5 }],
+        "img": "CopaJackDaniels.jpg"
+      },
+      {
+        "name": "Chupito de cardu",
+        "variants": [{ "label": null, "price": 3 }],
+        "img": "ChupitoCardu.jpg"
+      },
+      {
+        "name": "Copa de cardu",
+        "variants": [{ "label": null, "price": 5 }],
+        "img": "CopaCardu.jpg"
+      },
+      {
+        "name": "Martini blanco",
+        "variants": [{ "label": null, "price": 3.8 }],
+        "img": "MartiniBlanco.jpg"
+      },
+      {
+        "name": "Martini negro",
+        "variants": [{ "label": null, "price": 3.8 }],
+        "img": "MartiniNegro.jpg"
+      },
+      {
+        "name": "Vermut",
+        "variants": [{ "label": null, "price": 3.2 }],
+        "img": "Vermut.jpg"
+      },
+      {
+        "name": "Tequila",
+        "variants": [{ "label": null, "price": 2 }],
+        "img": "Tequila.jpg"
+      },
+      {
+        "name": "Chupito Orujo blanco",
+        "variants": [{ "label": null, "price": 2 }],
+        "img": "ChupitoOrujoBlanco.jpg"
+      },
+      {
+        "name": "Jack Daniels Cola",
+        "variants": [{ "label": null, "price": 7.5 }],
+        "img": "JackDanielsCola.jpg"
+      },
+      {
+        "name": "Bombay",
+        "variants": [{ "label": null, "price": 7 }],
+        "img": "Bombay.jpg"
+      },
+      {
+        "name": "Copa de magno",
+        "variants": [{ "label": null, "price": 2.8 }],
+        "img": "CopaMagno.jpg"
+      },
+      {
+        "name": "Black label",
+        "variants": [{ "label": null, "price": 6 }],
+        "img": "BlackLabel.jpg"
+      },
+      {
+        "name": "Copa de vodka",
+        "variants": [{ "label": null, "price": 3 }],
+        "img": "CopaVodka.jpg"
       }
     ]
   }

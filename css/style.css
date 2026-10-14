@@ -32,6 +32,7 @@ body[data-tema="bebidas"]      { --accent:#b05c7a; --accent-soft:rgba(176,92,122
 body[data-tema="cafe"]         { --accent:#a97a4e; --accent-soft:rgba(169,122,78,.16);  --bg-soft:#161108; }
 body[data-tema="refrescos"]    { --accent:#3fb6a6; --accent-soft:rgba(63,182,166,.16);  --bg-soft:#0e1716; }
 body[data-tema="cervezas"]     { --accent:#d9a62e; --accent-soft:rgba(217,166,46,.16);  --bg-soft:#171206; }
+body[data-tema="licores"]      { --accent:#d97706; --accent-soft:rgba(217,119,6,.16);   --bg-soft:#17130b; }
 
 *{ box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
 html,body{ margin:0; padding:0; }
