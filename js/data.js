@@ -2916,224 +2916,403 @@ const MENU_DATA = {
     "folder": "Licores",
     "tema": "licores",
     "covers": [
-      "LicoresHero.jpg",
-      "BacardiCola.jpg",
+      "BacardiCola.png",
       "BlackLabel.jpg",
-      "Bombay.jpg",
-      "ChupitoCardu.jpg",
-      "ChupitoChiva.jpg",
-      "ChupitoConac.jpg",
-      "ChupitoHierbas.jpg",
-      "ChupitoJackDaniels.jpg",
-      "ChupitoMacallan.jpg",
-      "ChupitoOrujoBlanco.jpg",
-      "ChupitoWhisky.jpg",
-      "CopaAnis.jpg",
-      "CopaBeilys.jpg",
-      "CopaCardu.jpg",
-      "CopaConac.jpg",
-      "CopaHierbas.jpg",
-      "CopaJackDaniels.jpg",
-      "CopaMacallan.jpg",
-      "CopaMagno.jpg",
+      "Bombay.png",
+      "ChupitoChiva.png",
+      "ChupitoConac.png",
+      "Chupitodecardu.png",
+      "ChupitoHierbas.png",
+      "ChupitoMacallan.png",
+      "ChupitoOrujoBlanco.png",
+      "ChupitoWhisky.png",
+      "CopaAnis.png",
+      "CopaBeilys.png",
+      "CopaCardu.png",
+      "CopaConac.png",
+      "CopadeJackDaniels.png",
+      "CopaHierbas.png",
+      "CopaJackDaniels.png",
+      "CopaMagno.png",
       "CopaTorres.jpg",
-      "CopaTorres10.jpg",
-      "CopaVodka.jpg",
-      "CopaWhisky.jpg",
+      "CopaTorres10.png",
+      "CopaVodka.png",
+      "CopaWhisky.png",
       "Gintonic.jpg",
-      "JackDanielsCola.jpg",
+      "JackDanielsCola.png",
+      "LicoresHero.jpg",
       "MartiniBlanco.jpg",
-      "MartiniNegro.jpg",
-      "Tequila.jpg",
-      "TuboBeilys.jpg",
-      "TuboHierbas.jpg",
-      "TuboWhisky.jpg",
-      "Vermut.jpg",
-      "VodkaAbsolut.jpg",
-      "VodkaRedBull.jpg",
-      "WhiskyCola.jpg",
-      "WhiskyRedBull.jpg"
+      "MartiniNegro.png",
+      "Tequila.png",
+      "TuboBeilys.png",
+      "TuboHierbas.png",
+      "TuboWhisky.png",
+      "Vermut.png",
+      "VodkaAbsolut.png",
+      "VodkaRedBull.png",
+      "WhiskyCola.png",
+      "WhiskyRedBull.png"
     ],
     "items": [
       {
         "name": "Chupito de coñac",
-        "variants": [{ "label": null, "price": 1.8 }],
-        "img": "ChupitoConac.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 1.8
+          }
+        ],
+        "img": "ChupitoConac.png"
       },
       {
         "name": "Chupito de hierbas",
-        "variants": [{ "label": null, "price": 1.8 }],
-        "img": "ChupitoHierbas.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 1.8
+          }
+        ],
+        "img": "ChupitoHierbas.png"
       },
       {
         "name": "Chupito de whisky",
-        "variants": [{ "label": null, "price": 2 }],
-        "img": "ChupitoWhisky.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 2
+          }
+        ],
+        "img": "ChupitoWhisky.png"
       },
       {
         "name": "Copa de coñac",
-        "variants": [{ "label": null, "price": 2.5 }],
-        "img": "CopaConac.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 2.5
+          }
+        ],
+        "img": "CopaConac.png"
       },
       {
         "name": "Copa de anís",
-        "variants": [{ "label": null, "price": 2.5 }],
-        "img": "CopaAnis.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 2.5
+          }
+        ],
+        "img": "CopaAnis.png"
       },
       {
         "name": "Copa de whisky",
-        "variants": [{ "label": null, "price": 3 }],
-        "img": "CopaWhisky.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 3
+          }
+        ],
+        "img": "CopaWhisky.png"
       },
       {
         "name": "Copa de Beilys",
-        "variants": [{ "label": null, "price": 3.2 }],
-        "img": "CopaBeilys.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 3.2
+          }
+        ],
+        "img": "CopaBeilys.png"
       },
       {
         "name": "Copa de hierbas",
-        "variants": [{ "label": null, "price": 2.5 }],
-        "img": "CopaHierbas.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 2.5
+          }
+        ],
+        "img": "CopaHierbas.png"
       },
       {
         "name": "Copa de torres",
-        "variants": [{ "label": null, "price": 2.8 }],
+        "variants": [
+          {
+            "label": null,
+            "price": 2.8
+          }
+        ],
         "img": "CopaTorres.jpg"
       },
       {
         "name": "Copa de torres 10",
-        "variants": [{ "label": null, "price": 3 }],
-        "img": "CopaTorres10.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 3
+          }
+        ],
+        "img": "CopaTorres10.png"
       },
       {
         "name": "Tubo de hierbas",
-        "variants": [{ "label": null, "price": 2.5 }],
-        "img": "TuboHierbas.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 2.5
+          }
+        ],
+        "img": "TuboHierbas.png"
       },
       {
         "name": "Tubo de whisky",
-        "variants": [{ "label": null, "price": 4.2 }],
-        "img": "TuboWhisky.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 4.2
+          }
+        ],
+        "img": "TuboWhisky.png"
       },
       {
         "name": "Tubo de Beilys",
-        "variants": [{ "label": null, "price": 4.2 }],
-        "img": "TuboBeilys.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 4.2
+          }
+        ],
+        "img": "TuboBeilys.png"
       },
       {
         "name": "Whisky cola",
-        "variants": [{ "label": null, "price": 6 }],
-        "img": "WhiskyCola.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 6
+          }
+        ],
+        "img": "WhiskyCola.png"
       },
       {
         "name": "Whisky RedBull",
-        "variants": [{ "label": null, "price": 6.8 }],
-        "img": "WhiskyRedBull.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 6.8
+          }
+        ],
+        "img": "WhiskyRedBull.png"
       },
       {
         "name": "Gintonic",
-        "variants": [{ "label": null, "price": 6 }],
+        "variants": [
+          {
+            "label": null,
+            "price": 6
+          }
+        ],
         "img": "Gintonic.jpg"
       },
       {
         "name": "Vodka absolut",
-        "variants": [{ "label": null, "price": 6.5 }],
-        "img": "VodkaAbsolut.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 6.5
+          }
+        ],
+        "img": "VodkaAbsolut.png"
       },
       {
         "name": "Vodka RedBull",
-        "variants": [{ "label": null, "price": 7 }],
-        "img": "VodkaRedBull.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 7
+          }
+        ],
+        "img": "VodkaRedBull.png"
       },
       {
         "name": "Bacardi cola",
-        "variants": [{ "label": null, "price": 6 }],
-        "img": "BacardiCola.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 6
+          }
+        ],
+        "img": "BacardiCola.png"
       },
       {
         "name": "Chupito de Macallan",
-        "variants": [{ "label": null, "price": 6 }],
-        "img": "ChupitoMacallan.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 6
+          }
+        ],
+        "img": "ChupitoMacallan.png"
       },
       {
         "name": "Copa de Macallan",
-        "variants": [{ "label": null, "price": 11 }],
-        "img": "CopaMacallan.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 11
+          }
+        ],
+        "img": "CopaCardu.png"
       },
       {
         "name": "Chupito de chiva",
-        "variants": [{ "label": null, "price": 3 }],
-        "img": "ChupitoChiva.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 3
+          }
+        ],
+        "img": "ChupitoChiva.png"
       },
       {
         "name": "Chupito de Jack Daniels",
-        "variants": [{ "label": null, "price": 3 }],
-        "img": "ChupitoJackDaniels.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 3
+          }
+        ],
+        "img": "CopadeJackDaniels.png"
       },
       {
         "name": "Copa de Jack Daniels",
-        "variants": [{ "label": null, "price": 4.5 }],
-        "img": "CopaJackDaniels.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 4.5
+          }
+        ],
+        "img": "CopaJackDaniels.png"
       },
       {
         "name": "Chupito de cardu",
-        "variants": [{ "label": null, "price": 3 }],
-        "img": "ChupitoCardu.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 3
+          }
+        ],
+        "img": "Chupitodecardu.png"
       },
       {
         "name": "Copa de cardu",
-        "variants": [{ "label": null, "price": 5 }],
-        "img": "CopaCardu.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 5
+          }
+        ],
+        "img": "CopaCardu.png"
       },
       {
         "name": "Martini blanco",
-        "variants": [{ "label": null, "price": 3.8 }],
+        "variants": [
+          {
+            "label": null,
+            "price": 3.8
+          }
+        ],
         "img": "MartiniBlanco.jpg"
       },
       {
         "name": "Martini negro",
-        "variants": [{ "label": null, "price": 3.8 }],
-        "img": "MartiniNegro.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 3.8
+          }
+        ],
+        "img": "MartiniNegro.png"
       },
       {
         "name": "Vermut",
-        "variants": [{ "label": null, "price": 3.2 }],
-        "img": "Vermut.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 3.2
+          }
+        ],
+        "img": "Vermut.png"
       },
       {
         "name": "Tequila",
-        "variants": [{ "label": null, "price": 2 }],
-        "img": "Tequila.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 2
+          }
+        ],
+        "img": "Tequila.png"
       },
       {
         "name": "Chupito Orujo blanco",
-        "variants": [{ "label": null, "price": 2 }],
-        "img": "ChupitoOrujoBlanco.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 2
+          }
+        ],
+        "img": "ChupitoOrujoBlanco.png"
       },
       {
         "name": "Jack Daniels Cola",
-        "variants": [{ "label": null, "price": 7.5 }],
-        "img": "JackDanielsCola.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 7.5
+          }
+        ],
+        "img": "JackDanielsCola.png"
       },
       {
         "name": "Bombay",
-        "variants": [{ "label": null, "price": 7 }],
-        "img": "Bombay.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 7
+          }
+        ],
+        "img": "Bombay.png"
       },
       {
         "name": "Copa de magno",
-        "variants": [{ "label": null, "price": 2.8 }],
-        "img": "CopaMagno.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 2.8
+          }
+        ],
+        "img": "CopaMagno.png"
       },
       {
         "name": "Black label",
-        "variants": [{ "label": null, "price": 6 }],
+        "variants": [
+          {
+            "label": null,
+            "price": 6
+          }
+        ],
         "img": "BlackLabel.jpg"
       },
       {
         "name": "Copa de vodka",
-        "variants": [{ "label": null, "price": 3 }],
-        "img": "CopaVodka.jpg"
+        "variants": [
+          {
+            "label": null,
+            "price": 3
+          }
+        ],
+        "img": "CopaVodka.png"
       }
     ]
   }
